@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+  display: flex;
+  justify-content: center;
+  color: #54575A;
+  overflow-x: hidden;
+}
+
+.wrapper{
+  position: relative;
+  width: 1440px;
+  height: 1379px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 67px;
+}
+.text{
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 221px;
+  top: 403px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+.brand-img{
+  position: absolute;
+width: 193px;
+height: 47.64px;
+left: 221px;
+top: 50.25px;
+}
+
+.app-store-btn{
+  position: absolute;
+width: 138.44px;
+height: 46.28px;
+left: 221px;
+top: 531px;
+}
+.google-store-btn{
+  position: absolute;
+width: 156.19px;
+height: 46.28px;
+left: 381.81px;
+top: 531px;
+}
+.app-store-btn img{
+  width: 138.44px;
+  height: 46.28px;
+}
+.google-store-btn img{
+  width: 156.19px;
+  height: 46.28px; 
+}
+.main-image-con{
+  position: absolute;
+  height: 309.27px;
+  width: 535.72px;
+  top: 229.73px;
+  left: 683.28px;
+}
+.main-image-con img{
+  /* width: 535.72px; */
+  height:  411.15px;
+}
+ 
+.profile{
+  position: absolute;
+  left: 737px;
+  height: 470px;
+  top: 686px;
+  right: 479px;
+
+}
+.cart{
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+}
+.home{
+  position: absolute;
+  top: 908px;
+  left: 995px;
+  height: 470px;
+  right: 221px;
+}
+.product{
+  position: absolute;
+  height: 222px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+  
+}
+.order{
+  position: absolute;
+  left: 479px;
+  height: 470px;
+  top: 913px;
+  right: 737px;
+}
+
+/* BAckground Toggles */
+.background-toggles{
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+.background-toggles > div{
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 10px rgba(0,0, 0 , 1);
+  cursor: pointer;
+}
+
+/* BackGround 1 */
+.background-1{
+  background-color: #e6e0ef;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23a7a7a7' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.background-2{
+  background-color: #f2f0dc;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23686161' fill-opacity='0.24'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.background-3{
+  background-color: #c8e2de;
+background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23353536' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
